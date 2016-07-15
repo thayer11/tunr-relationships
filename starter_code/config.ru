@@ -6,6 +6,7 @@ Bundler.require
 require './models/artist'
 require './models/manager'
 require './models/song'
+require './models/ad'
 
 # Controllers
 require './app'

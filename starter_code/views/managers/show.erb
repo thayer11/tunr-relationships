@@ -2,3 +2,9 @@
 <h3><%= @manager.email %></h3>
 <h3><%= @manager.office_number %></h3>
 <h3><%= @manager.cell_phone_number %></h3>
+<h3>Songs</h3>
+<ul>
+	<% @manager.songs.each do |song| %>
+		<li><%= song.title %></li>
+	<% end %>
+</ul>
